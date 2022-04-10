@@ -51,13 +51,13 @@ a:hover {
 }
 
 .header-text {
-  font-size: 2.1rem;
+  font-size: 2.7rem;
   line-height: 1.5;
 }
 .header-text-2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   line-height: 1.2;
   color: #fffffffe;
 }
@@ -167,12 +167,14 @@ a:hover {
 #cta {
   background-color: white;
   color: white;
-  padding: 6% 15% 5%;
+  padding: 5% 5% 4%;
   text-align: center;
 }
 .cta-title {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
   font-weight: 600;
+  color: rgb(77, 76, 76);
 }
 .cta-download-button {
   margin: 1% auto;
@@ -191,7 +193,7 @@ a:hover {
   padding: 3% 7% 1%;
   text-align: center;
   z-index: 7;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   border-top: #d8d8d8 solid 1px;
 }
 .footer-logo {
@@ -209,8 +211,11 @@ a:hover {
 }
 .footer-icons {
   margin: 15px 0;
+  font-size: 1.2rem;
+  text-align: right;
 }
 .footer-other-links {
+  font-size: 1rem;
 }
 
 .footer-other-links a {
@@ -220,11 +225,12 @@ a:hover {
 }
 .footer-other-links-title {
   color: #ff4c68;
-  font-size: 0.7rem;
+  font-size: 1.1rem;
   margin: 5px auto 2px;
 }
 .copyright-div {
-  padding-top: 10px;
+  margin-top: 20px;
+  padding: 3px 0 10px;
   border-top: #d8d8d8 solid 1px;
 }
 .copyright {
@@ -238,8 +244,47 @@ a:hover {
     text-align: center;
   }
 
+  .header-text {
+    font-size: 1.8rem;
+  }
+  .header-text-2 {
+    font-size: 1rem;
+  }
+  #cta {
+    padding: 5% 15% 4%;
+  }
+  .cta-title {
+    font-size: 1rem;
+  }
   .title-image-1 {
     transform: rotate(0);
     position: static;
+  }
+  .footer-icons {
+    text-align: center;
+  }
+  .footer-logo {
+    margin: 15px 0 25px;
+    position: relative;
+    right: 6px;
+  }
+  .footer-other-links {
+    font-size: 0.7rem;
+  }
+  .footer-other-links-title {
+    font-size: 0.8rem;
+  }
+  .footer-icons {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .copyright {
+    font-size: 0.6rem;
+  }
+  .feature-item-title {
+    font-size: 1rem;
+  }
+  .feature-item-text {
+    font-size: 0.9rem;
   }
 }
